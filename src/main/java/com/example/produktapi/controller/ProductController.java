@@ -23,6 +23,7 @@ public class ProductController {
     ResponseEntity<String> hello(){
         return new ResponseEntity<String>("Hello, world!", HttpStatus.OK);
     }
+
     @GetMapping("/products")
     ResponseEntity<List<Product>>getAllProducts() {
         List<Product> products = productService.getAllProducts();
@@ -37,7 +38,7 @@ public class ProductController {
 
     @GetMapping("/products/categories/{category}")
     ResponseEntity<List<Product>> getProductsByCategory(@PathVariable String category) {
-        List productsByCategory =  productService.getProductsByCategory(category);
+        List productsByCategory = productService.getProductsByCategory(category);
         return new ResponseEntity<List<Product>>(productsByCategory, HttpStatus.OK);
     }
 
