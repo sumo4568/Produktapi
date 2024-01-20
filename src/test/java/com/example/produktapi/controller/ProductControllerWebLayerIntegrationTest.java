@@ -1,6 +1,6 @@
 package com.example.produktapi.controller;
 
-import com.example.produktapi.model.Product;
+import com.example.produktapi.model_product.Product;
 import com.example.produktapi.service.ProductService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

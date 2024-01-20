@@ -1,6 +1,6 @@
 package com.example.produktapi.controller;
 
-import com.example.produktapi.model.Product;
+import com.example.produktapi.model_product.Product;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,9 +1,9 @@
-package com.example.produktapi.model;
+package com.example.produktapi.model_product;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-public class ProductTest {
+public class Product_Test {
     Product product;
 
     private Product createTestProduct() {

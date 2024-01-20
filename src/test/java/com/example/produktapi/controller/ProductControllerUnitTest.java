@@ -1,6 +1,6 @@
 package com.example.produktapi.controller;
 
-import com.example.produktapi.model.Product;
+import com.example.produktapi.model_product.Product;
 import com.example.produktapi.service.ProductService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

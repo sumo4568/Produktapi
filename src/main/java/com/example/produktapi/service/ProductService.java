@@ -2,7 +2,7 @@ package com.example.produktapi.service;
 
 import com.example.produktapi.exception.BadRequestException;
 import com.example.produktapi.exception.EntityNotFoundException;
-import com.example.produktapi.model.Product;
+import com.example.produktapi.model_product.Product;
 import com.example.produktapi.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
